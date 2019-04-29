@@ -25,7 +25,7 @@ plt.xticks(y_pos, objects)
 plt.ylabel('Instructions Per Cycle')
 plt.title('IPC of %s' %(name1))
 plt.grid()
-plt.savefig('%s.png' % (name1) )
+plt.savefig('%s.png' %(name1) )
 
 #plt.show()			
 

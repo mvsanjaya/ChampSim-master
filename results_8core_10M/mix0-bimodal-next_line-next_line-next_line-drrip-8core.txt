@@ -1,0 +1,1564 @@
+
+*** ChampSim Multicore Out-of-Order Simulator ***
+
+Warmup Instructions: 1000000
+Simulation Instructions: 10000000
+Number of CPUs: 8
+LLC sets: 16384
+LLC ways: 16
+Off-chip DRAM Size: 8192 MB Channels: 2 Width: 64-bit Data Rate: 1600 MT/s
+
+CPU 0 runs /home/sanju/ChampSim-master/dpc3_traces/600.perlbench_s-210B.champsimtrace.xz
+CPU 1 runs /home/sanju/ChampSim-master/dpc3_traces/602.gcc_s-734B.champsimtrace.xz
+CPU 2 runs /home/sanju/ChampSim-master/dpc3_traces/603.bwaves_s-3699B.champsimtrace.xz
+CPU 3 runs /home/sanju/ChampSim-master/dpc3_traces/607.cactuBSSN_s-2421B.champsimtrace.xz
+CPU 4 runs /home/sanju/ChampSim-master/dpc3_traces/621.wrf_s-575B.champsimtrace.xz
+CPU 5 runs /home/sanju/ChampSim-master/dpc3_traces/623.xalancbmk_s-700B.champsimtrace.xz
+CPU 6 runs /home/sanju/ChampSim-master/dpc3_traces/625.x264_s-18B.champsimtrace.xz
+CPU 7 runs /home/sanju/ChampSim-master/dpc3_traces/627.cam4_s-573B.champsimtrace.xz
+CPU 0 Bimodal branch predictor
+CPU 0 L1D next line prefetcher
+CPU 0 L2C next line prefetcher
+CPU 1 Bimodal branch predictor
+CPU 1 L1D next line prefetcher
+CPU 1 L2C next line prefetcher
+CPU 2 Bimodal branch predictor
+CPU 2 L1D next line prefetcher
+CPU 2 L2C next line prefetcher
+CPU 3 Bimodal branch predictor
+CPU 3 L1D next line prefetcher
+CPU 3 L2C next line prefetcher
+CPU 4 Bimodal branch predictor
+CPU 4 L1D next line prefetcher
+CPU 4 L2C next line prefetcher
+CPU 5 Bimodal branch predictor
+CPU 5 L1D next line prefetcher
+CPU 5 L2C next line prefetcher
+CPU 6 Bimodal branch predictor
+CPU 6 L1D next line prefetcher
+CPU 6 L2C next line prefetcher
+CPU 7 Bimodal branch predictor
+CPU 7 L1D next line prefetcher
+CPU 7 L2C next line prefetcher
+Initialize DRRIP state
+Assign rand_sets[0]: 454  LLC: 16384
+rand_sets[0]: 454
+Assign rand_sets[1]: 5758  LLC: 16384
+rand_sets[1]: 5758
+Assign rand_sets[2]: 10113  LLC: 16384
+rand_sets[2]: 10113
+Assign rand_sets[3]: 1131  LLC: 16384
+rand_sets[3]: 1131
+Assign rand_sets[4]: 14667  LLC: 16384
+rand_sets[4]: 14667
+Assign rand_sets[5]: 5627  LLC: 16384
+rand_sets[5]: 5627
+Assign rand_sets[6]: 6626  LLC: 16384
+rand_sets[6]: 6626
+Assign rand_sets[7]: 7419  LLC: 16384
+rand_sets[7]: 7419
+Assign rand_sets[8]: 16212  LLC: 16384
+rand_sets[8]: 16212
+Assign rand_sets[9]: 4086  LLC: 16384
+rand_sets[9]: 4086
+Assign rand_sets[10]: 2749  LLC: 16384
+rand_sets[10]: 2749
+Assign rand_sets[11]: 12767  LLC: 16384
+rand_sets[11]: 12767
+Assign rand_sets[12]: 9084  LLC: 16384
+rand_sets[12]: 9084
+Assign rand_sets[13]: 12060  LLC: 16384
+rand_sets[13]: 12060
+Assign rand_sets[14]: 15841  LLC: 16384
+rand_sets[14]: 15841
+Assign rand_sets[15]: 1159  LLC: 16384
+rand_sets[15]: 1159
+Assign rand_sets[16]: 8705  LLC: 16384
+rand_sets[16]: 8705
+Assign rand_sets[17]: 4799  LLC: 16384
+rand_sets[17]: 4799
+Assign rand_sets[18]: 8753  LLC: 16384
+rand_sets[18]: 8753
+Assign rand_sets[19]: 9182  LLC: 16384
+rand_sets[19]: 9182
+Assign rand_sets[20]: 10582  LLC: 16384
+rand_sets[20]: 10582
+Assign rand_sets[21]: 4978  LLC: 16384
+rand_sets[21]: 4978
+Assign rand_sets[22]: 4111  LLC: 16384
+rand_sets[22]: 4111
+Assign rand_sets[23]: 10311  LLC: 16384
+rand_sets[23]: 10311
+Assign rand_sets[24]: 11367  LLC: 16384
+rand_sets[24]: 11367
+Assign rand_sets[25]: 13670  LLC: 16384
+rand_sets[25]: 13670
+Assign rand_sets[26]: 647  LLC: 16384
+rand_sets[26]: 647
+Assign rand_sets[27]: 13145  LLC: 16384
+rand_sets[27]: 13145
+Assign rand_sets[28]: 3498  LLC: 16384
+rand_sets[28]: 3498
+Assign rand_sets[29]: 9352  LLC: 16384
+rand_sets[29]: 9352
+Assign rand_sets[30]: 14140  LLC: 16384
+rand_sets[30]: 14140
+Assign rand_sets[31]: 12121  LLC: 16384
+rand_sets[31]: 12121
+Assign rand_sets[32]: 12010  LLC: 16384
+rand_sets[32]: 12010
+Assign rand_sets[33]: 5718  LLC: 16384
+rand_sets[33]: 5718
+Assign rand_sets[34]: 8467  LLC: 16384
+rand_sets[34]: 8467
+Assign rand_sets[35]: 2683  LLC: 16384
+rand_sets[35]: 2683
+Assign rand_sets[36]: 12754  LLC: 16384
+rand_sets[36]: 12754
+Assign rand_sets[37]: 11653  LLC: 16384
+rand_sets[37]: 11653
+Assign rand_sets[38]: 6561  LLC: 16384
+rand_sets[38]: 6561
+Assign rand_sets[39]: 10712  LLC: 16384
+rand_sets[39]: 10712
+Assign rand_sets[40]: 13628  LLC: 16384
+rand_sets[40]: 13628
+Assign rand_sets[41]: 15188  LLC: 16384
+rand_sets[41]: 15188
+Assign rand_sets[42]: 15701  LLC: 16384
+rand_sets[42]: 15701
+Assign rand_sets[43]: 4143  LLC: 16384
+rand_sets[43]: 4143
+Assign rand_sets[44]: 6967  LLC: 16384
+rand_sets[44]: 6967
+Assign rand_sets[45]: 15022  LLC: 16384
+rand_sets[45]: 15022
+Assign rand_sets[46]: 7781  LLC: 16384
+rand_sets[46]: 7781
+Assign rand_sets[47]: 13403  LLC: 16384
+rand_sets[47]: 13403
+Assign rand_sets[48]: 9178  LLC: 16384
+rand_sets[48]: 9178
+Assign rand_sets[49]: 8450  LLC: 16384
+rand_sets[49]: 8450
+Assign rand_sets[50]: 14969  LLC: 16384
+rand_sets[50]: 14969
+Assign rand_sets[51]: 920  LLC: 16384
+rand_sets[51]: 920
+Assign rand_sets[52]: 10444  LLC: 16384
+rand_sets[52]: 10444
+Assign rand_sets[53]: 8419  LLC: 16384
+rand_sets[53]: 8419
+Assign rand_sets[54]: 7962  LLC: 16384
+rand_sets[54]: 7962
+Assign rand_sets[55]: 2934  LLC: 16384
+rand_sets[55]: 2934
+Assign rand_sets[56]: 1422  LLC: 16384
+rand_sets[56]: 1422
+Assign rand_sets[57]: 14943  LLC: 16384
+rand_sets[57]: 14943
+Assign rand_sets[58]: 10457  LLC: 16384
+rand_sets[58]: 10457
+Assign rand_sets[59]: 1945  LLC: 16384
+rand_sets[59]: 1945
+Assign rand_sets[60]: 14479  LLC: 16384
+rand_sets[60]: 14479
+Assign rand_sets[61]: 13599  LLC: 16384
+rand_sets[61]: 13599
+Assign rand_sets[62]: 2367  LLC: 16384
+rand_sets[62]: 2367
+Assign rand_sets[63]: 3894  LLC: 16384
+rand_sets[63]: 3894
+Assign rand_sets[64]: 2286  LLC: 16384
+rand_sets[64]: 2286
+Assign rand_sets[65]: 8259  LLC: 16384
+rand_sets[65]: 8259
+Assign rand_sets[66]: 16248  LLC: 16384
+rand_sets[66]: 16248
+Assign rand_sets[67]: 7757  LLC: 16384
+rand_sets[67]: 7757
+Assign rand_sets[68]: 15629  LLC: 16384
+rand_sets[68]: 15629
+Assign rand_sets[69]: 13306  LLC: 16384
+rand_sets[69]: 13306
+Assign rand_sets[70]: 12222  LLC: 16384
+rand_sets[70]: 12222
+Assign rand_sets[71]: 13990  LLC: 16384
+rand_sets[71]: 13990
+Assign rand_sets[72]: 11738  LLC: 16384
+rand_sets[72]: 11738
+Assign rand_sets[73]: 12516  LLC: 16384
+rand_sets[73]: 12516
+Assign rand_sets[74]: 1414  LLC: 16384
+rand_sets[74]: 1414
+Assign rand_sets[75]: 5262  LLC: 16384
+rand_sets[75]: 5262
+Assign rand_sets[76]: 732  LLC: 16384
+rand_sets[76]: 732
+Assign rand_sets[77]: 6441  LLC: 16384
+rand_sets[77]: 6441
+Assign rand_sets[78]: 3181  LLC: 16384
+rand_sets[78]: 3181
+Assign rand_sets[79]: 13134  LLC: 16384
+rand_sets[79]: 13134
+Assign rand_sets[80]: 8959  LLC: 16384
+rand_sets[80]: 8959
+Assign rand_sets[81]: 8022  LLC: 16384
+rand_sets[81]: 8022
+Assign rand_sets[82]: 11233  LLC: 16384
+rand_sets[82]: 11233
+Assign rand_sets[83]: 7536  LLC: 16384
+rand_sets[83]: 7536
+Assign rand_sets[84]: 9760  LLC: 16384
+rand_sets[84]: 9760
+Assign rand_sets[85]: 9979  LLC: 16384
+rand_sets[85]: 9979
+Assign rand_sets[86]: 12687  LLC: 16384
+rand_sets[86]: 12687
+Assign rand_sets[87]: 1201  LLC: 16384
+rand_sets[87]: 1201
+Assign rand_sets[88]: 4952  LLC: 16384
+rand_sets[88]: 4952
+Assign rand_sets[89]: 13061  LLC: 16384
+rand_sets[89]: 13061
+Assign rand_sets[90]: 5776  LLC: 16384
+rand_sets[90]: 5776
+Assign rand_sets[91]: 7621  LLC: 16384
+rand_sets[91]: 7621
+Assign rand_sets[92]: 14345  LLC: 16384
+rand_sets[92]: 14345
+Assign rand_sets[93]: 7644  LLC: 16384
+rand_sets[93]: 7644
+Assign rand_sets[94]: 11091  LLC: 16384
+rand_sets[94]: 11091
+Assign rand_sets[95]: 15309  LLC: 16384
+rand_sets[95]: 15309
+Assign rand_sets[96]: 9130  LLC: 16384
+rand_sets[96]: 9130
+Assign rand_sets[97]: 14139  LLC: 16384
+rand_sets[97]: 14139
+Assign rand_sets[98]: 5704  LLC: 16384
+rand_sets[98]: 5704
+Assign rand_sets[99]: 10137  LLC: 16384
+rand_sets[99]: 10137
+Assign rand_sets[100]: 5202  LLC: 16384
+rand_sets[100]: 5202
+Assign rand_sets[101]: 9171  LLC: 16384
+rand_sets[101]: 9171
+Assign rand_sets[102]: 4434  LLC: 16384
+rand_sets[102]: 4434
+Assign rand_sets[103]: 11933  LLC: 16384
+rand_sets[103]: 11933
+Assign rand_sets[104]: 8198  LLC: 16384
+rand_sets[104]: 8198
+Assign rand_sets[105]: 6815  LLC: 16384
+rand_sets[105]: 6815
+Assign rand_sets[106]: 4586  LLC: 16384
+rand_sets[106]: 4586
+Assign rand_sets[107]: 9653  LLC: 16384
+rand_sets[107]: 9653
+Assign rand_sets[108]: 9922  LLC: 16384
+rand_sets[108]: 9922
+Assign rand_sets[109]: 7174  LLC: 16384
+rand_sets[109]: 7174
+Assign rand_sets[110]: 2067  LLC: 16384
+rand_sets[110]: 2067
+Assign rand_sets[111]: 7064  LLC: 16384
+rand_sets[111]: 7064
+Assign rand_sets[112]: 6473  LLC: 16384
+rand_sets[112]: 6473
+Assign rand_sets[113]: 16050  LLC: 16384
+rand_sets[113]: 16050
+Assign rand_sets[114]: 8193  LLC: 16384
+rand_sets[114]: 8193
+Assign rand_sets[115]: 14110  LLC: 16384
+rand_sets[115]: 14110
+Assign rand_sets[116]: 8364  LLC: 16384
+rand_sets[116]: 8364
+Assign rand_sets[117]: 11826  LLC: 16384
+rand_sets[117]: 11826
+Assign rand_sets[118]: 12936  LLC: 16384
+rand_sets[118]: 12936
+Assign rand_sets[119]: 15665  LLC: 16384
+rand_sets[119]: 15665
+Assign rand_sets[120]: 12956  LLC: 16384
+rand_sets[120]: 12956
+Assign rand_sets[121]: 14162  LLC: 16384
+rand_sets[121]: 14162
+Assign rand_sets[122]: 4166  LLC: 16384
+rand_sets[122]: 4166
+Assign rand_sets[123]: 14997  LLC: 16384
+rand_sets[123]: 14997
+Assign rand_sets[124]: 7793  LLC: 16384
+rand_sets[124]: 7793
+Assign rand_sets[125]: 15926  LLC: 16384
+rand_sets[125]: 15926
+Assign rand_sets[126]: 5007  LLC: 16384
+rand_sets[126]: 5007
+Assign rand_sets[127]: 3415  LLC: 16384
+rand_sets[127]: 3415
+Assign rand_sets[128]: 7926  LLC: 16384
+rand_sets[128]: 7926
+Assign rand_sets[129]: 14905  LLC: 16384
+rand_sets[129]: 14905
+Assign rand_sets[130]: 9501  LLC: 16384
+rand_sets[130]: 9501
+Assign rand_sets[131]: 2582  LLC: 16384
+rand_sets[131]: 2582
+Assign rand_sets[132]: 15610  LLC: 16384
+rand_sets[132]: 15610
+Assign rand_sets[133]: 5000  LLC: 16384
+rand_sets[133]: 5000
+Assign rand_sets[134]: 8052  LLC: 16384
+rand_sets[134]: 8052
+Assign rand_sets[135]: 14581  LLC: 16384
+rand_sets[135]: 14581
+Assign rand_sets[136]: 3736  LLC: 16384
+rand_sets[136]: 3736
+Assign rand_sets[137]: 15996  LLC: 16384
+rand_sets[137]: 15996
+Assign rand_sets[138]: 15639  LLC: 16384
+rand_sets[138]: 15639
+Assign rand_sets[139]: 9820  LLC: 16384
+rand_sets[139]: 9820
+Assign rand_sets[140]: 8001  LLC: 16384
+rand_sets[140]: 8001
+Assign rand_sets[141]: 12475  LLC: 16384
+rand_sets[141]: 12475
+Assign rand_sets[142]: 15725  LLC: 16384
+rand_sets[142]: 15725
+Assign rand_sets[143]: 881  LLC: 16384
+rand_sets[143]: 881
+Assign rand_sets[144]: 3214  LLC: 16384
+rand_sets[144]: 3214
+Assign rand_sets[145]: 3087  LLC: 16384
+rand_sets[145]: 3087
+Assign rand_sets[146]: 11376  LLC: 16384
+rand_sets[146]: 11376
+Assign rand_sets[147]: 4697  LLC: 16384
+rand_sets[147]: 4697
+Assign rand_sets[148]: 9159  LLC: 16384
+rand_sets[148]: 9159
+Assign rand_sets[149]: 6913  LLC: 16384
+rand_sets[149]: 6913
+Assign rand_sets[150]: 14619  LLC: 16384
+rand_sets[150]: 14619
+Assign rand_sets[151]: 6703  LLC: 16384
+rand_sets[151]: 6703
+Assign rand_sets[152]: 3123  LLC: 16384
+rand_sets[152]: 3123
+Assign rand_sets[153]: 15165  LLC: 16384
+rand_sets[153]: 15165
+Assign rand_sets[154]: 1681  LLC: 16384
+rand_sets[154]: 1681
+Assign rand_sets[155]: 7872  LLC: 16384
+rand_sets[155]: 7872
+Assign rand_sets[156]: 2589  LLC: 16384
+rand_sets[156]: 2589
+Assign rand_sets[157]: 4517  LLC: 16384
+rand_sets[157]: 4517
+Assign rand_sets[158]: 9229  LLC: 16384
+rand_sets[158]: 9229
+Assign rand_sets[159]: 6157  LLC: 16384
+rand_sets[159]: 6157
+Assign rand_sets[160]: 9899  LLC: 16384
+rand_sets[160]: 9899
+Assign rand_sets[161]: 9267  LLC: 16384
+rand_sets[161]: 9267
+Assign rand_sets[162]: 6029  LLC: 16384
+rand_sets[162]: 6029
+Assign rand_sets[163]: 9598  LLC: 16384
+rand_sets[163]: 9598
+Assign rand_sets[164]: 2142  LLC: 16384
+rand_sets[164]: 2142
+Assign rand_sets[165]: 13711  LLC: 16384
+rand_sets[165]: 13711
+Assign rand_sets[166]: 10046  LLC: 16384
+rand_sets[166]: 10046
+Assign rand_sets[167]: 14566  LLC: 16384
+rand_sets[167]: 14566
+Assign rand_sets[168]: 2152  LLC: 16384
+rand_sets[168]: 2152
+Assign rand_sets[169]: 15988  LLC: 16384
+rand_sets[169]: 15988
+Assign rand_sets[170]: 3494  LLC: 16384
+rand_sets[170]: 3494
+Assign rand_sets[171]: 13626  LLC: 16384
+rand_sets[171]: 13626
+Assign rand_sets[172]: 4273  LLC: 16384
+rand_sets[172]: 4273
+Assign rand_sets[173]: 8387  LLC: 16384
+rand_sets[173]: 8387
+Assign rand_sets[174]: 1171  LLC: 16384
+rand_sets[174]: 1171
+Assign rand_sets[175]: 15633  LLC: 16384
+rand_sets[175]: 15633
+Assign rand_sets[176]: 3752  LLC: 16384
+rand_sets[176]: 3752
+Assign rand_sets[177]: 12388  LLC: 16384
+rand_sets[177]: 12388
+Assign rand_sets[178]: 4807  LLC: 16384
+rand_sets[178]: 4807
+Assign rand_sets[179]: 11483  LLC: 16384
+rand_sets[179]: 11483
+Assign rand_sets[180]: 1738  LLC: 16384
+rand_sets[180]: 1738
+Assign rand_sets[181]: 11744  LLC: 16384
+rand_sets[181]: 11744
+Assign rand_sets[182]: 2144  LLC: 16384
+rand_sets[182]: 2144
+Assign rand_sets[183]: 15585  LLC: 16384
+rand_sets[183]: 15585
+Assign rand_sets[184]: 5363  LLC: 16384
+rand_sets[184]: 5363
+Assign rand_sets[185]: 3775  LLC: 16384
+rand_sets[185]: 3775
+Assign rand_sets[186]: 5641  LLC: 16384
+rand_sets[186]: 5641
+Assign rand_sets[187]: 1792  LLC: 16384
+rand_sets[187]: 1792
+Assign rand_sets[188]: 9575  LLC: 16384
+rand_sets[188]: 9575
+Assign rand_sets[189]: 12194  LLC: 16384
+rand_sets[189]: 12194
+Assign rand_sets[190]: 10979  LLC: 16384
+rand_sets[190]: 10979
+Assign rand_sets[191]: 11301  LLC: 16384
+rand_sets[191]: 11301
+Assign rand_sets[192]: 12960  LLC: 16384
+rand_sets[192]: 12960
+Assign rand_sets[193]: 3105  LLC: 16384
+rand_sets[193]: 3105
+Assign rand_sets[194]: 1329  LLC: 16384
+rand_sets[194]: 1329
+Assign rand_sets[195]: 5511  LLC: 16384
+rand_sets[195]: 5511
+Assign rand_sets[196]: 5077  LLC: 16384
+rand_sets[196]: 5077
+Assign rand_sets[197]: 6242  LLC: 16384
+rand_sets[197]: 6242
+Assign rand_sets[198]: 8645  LLC: 16384
+rand_sets[198]: 8645
+Assign rand_sets[199]: 3496  LLC: 16384
+rand_sets[199]: 3496
+Assign rand_sets[200]: 10319  LLC: 16384
+rand_sets[200]: 10319
+Assign rand_sets[201]: 6270  LLC: 16384
+rand_sets[201]: 6270
+Assign rand_sets[202]: 13870  LLC: 16384
+rand_sets[202]: 13870
+Assign rand_sets[203]: 11529  LLC: 16384
+rand_sets[203]: 11529
+Assign rand_sets[204]: 11115  LLC: 16384
+rand_sets[204]: 11115
+Assign rand_sets[205]: 4500  LLC: 16384
+rand_sets[205]: 4500
+Assign rand_sets[206]: 8607  LLC: 16384
+rand_sets[206]: 8607
+Assign rand_sets[207]: 5808  LLC: 16384
+rand_sets[207]: 5808
+Assign rand_sets[208]: 15725  LLC: 16384
+Assign rand_sets[208]: 12457  LLC: 16384
+rand_sets[208]: 12457
+Assign rand_sets[209]: 158  LLC: 16384
+rand_sets[209]: 158
+Assign rand_sets[210]: 90  LLC: 16384
+rand_sets[210]: 90
+Assign rand_sets[211]: 11531  LLC: 16384
+rand_sets[211]: 11531
+Assign rand_sets[212]: 838  LLC: 16384
+rand_sets[212]: 838
+Assign rand_sets[213]: 3952  LLC: 16384
+rand_sets[213]: 3952
+Assign rand_sets[214]: 640  LLC: 16384
+rand_sets[214]: 640
+Assign rand_sets[215]: 3510  LLC: 16384
+rand_sets[215]: 3510
+Assign rand_sets[216]: 7631  LLC: 16384
+rand_sets[216]: 7631
+Assign rand_sets[217]: 1863  LLC: 16384
+rand_sets[217]: 1863
+Assign rand_sets[218]: 11276  LLC: 16384
+rand_sets[218]: 11276
+Assign rand_sets[219]: 9894  LLC: 16384
+rand_sets[219]: 9894
+Assign rand_sets[220]: 2981  LLC: 16384
+rand_sets[220]: 2981
+Assign rand_sets[221]: 8746  LLC: 16384
+rand_sets[221]: 8746
+Assign rand_sets[222]: 5592  LLC: 16384
+rand_sets[222]: 5592
+Assign rand_sets[223]: 1708  LLC: 16384
+rand_sets[223]: 1708
+Assign rand_sets[224]: 9467  LLC: 16384
+rand_sets[224]: 9467
+Assign rand_sets[225]: 12704  LLC: 16384
+rand_sets[225]: 12704
+Assign rand_sets[226]: 12779  LLC: 16384
+rand_sets[226]: 12779
+Assign rand_sets[227]: 2231  LLC: 16384
+rand_sets[227]: 2231
+Assign rand_sets[228]: 9849  LLC: 16384
+rand_sets[228]: 9849
+Assign rand_sets[229]: 13348  LLC: 16384
+rand_sets[229]: 13348
+Assign rand_sets[230]: 4722  LLC: 16384
+rand_sets[230]: 4722
+Assign rand_sets[231]: 5411  LLC: 16384
+rand_sets[231]: 5411
+Assign rand_sets[232]: 9874  LLC: 16384
+rand_sets[232]: 9874
+Assign rand_sets[233]: 5448  LLC: 16384
+rand_sets[233]: 5448
+Assign rand_sets[234]: 9344  LLC: 16384
+rand_sets[234]: 9344
+Assign rand_sets[235]: 11205  LLC: 16384
+rand_sets[235]: 11205
+Assign rand_sets[236]: 1190  LLC: 16384
+rand_sets[236]: 1190
+Assign rand_sets[237]: 1191  LLC: 16384
+rand_sets[237]: 1191
+Assign rand_sets[238]: 6789  LLC: 16384
+rand_sets[238]: 6789
+Assign rand_sets[239]: 695  LLC: 16384
+rand_sets[239]: 695
+Assign rand_sets[240]: 11735  LLC: 16384
+rand_sets[240]: 11735
+Assign rand_sets[241]: 3980  LLC: 16384
+rand_sets[241]: 3980
+Assign rand_sets[242]: 656  LLC: 16384
+rand_sets[242]: 656
+Assign rand_sets[243]: 1508  LLC: 16384
+rand_sets[243]: 1508
+Assign rand_sets[244]: 5035  LLC: 16384
+rand_sets[244]: 5035
+Assign rand_sets[245]: 10595  LLC: 16384
+rand_sets[245]: 10595
+Assign rand_sets[246]: 1092  LLC: 16384
+rand_sets[246]: 1092
+Assign rand_sets[247]: 850  LLC: 16384
+rand_sets[247]: 850
+Assign rand_sets[248]: 12390  LLC: 16384
+rand_sets[248]: 12390
+Assign rand_sets[249]: 3811  LLC: 16384
+rand_sets[249]: 3811
+Assign rand_sets[250]: 668  LLC: 16384
+rand_sets[250]: 668
+Assign rand_sets[251]: 4147  LLC: 16384
+rand_sets[251]: 4147
+Assign rand_sets[252]: 13605  LLC: 16384
+rand_sets[252]: 13605
+Assign rand_sets[253]: 12281  LLC: 16384
+rand_sets[253]: 12281
+Assign rand_sets[254]: 7518  LLC: 16384
+rand_sets[254]: 7518
+Assign rand_sets[255]: 12970  LLC: 16384
+rand_sets[255]: 12970
+Assign rand_sets[256]: 15802  LLC: 16384
+rand_sets[256]: 15802
+Assign rand_sets[257]: 3187  LLC: 16384
+rand_sets[257]: 3187
+Assign rand_sets[258]: 3680  LLC: 16384
+rand_sets[258]: 3680
+Assign rand_sets[259]: 7261  LLC: 16384
+rand_sets[259]: 7261
+Assign rand_sets[260]: 9803  LLC: 16384
+rand_sets[260]: 9803
+Assign rand_sets[261]: 12145  LLC: 16384
+rand_sets[261]: 12145
+Assign rand_sets[262]: 7806  LLC: 16384
+rand_sets[262]: 7806
+Assign rand_sets[263]: 446  LLC: 16384
+rand_sets[263]: 446
+Assign rand_sets[264]: 7849  LLC: 16384
+rand_sets[264]: 7849
+Assign rand_sets[265]: 13708  LLC: 16384
+rand_sets[265]: 13708
+Assign rand_sets[266]: 11863  LLC: 16384
+rand_sets[266]: 11863
+Assign rand_sets[267]: 6681  LLC: 16384
+rand_sets[267]: 6681
+Assign rand_sets[268]: 6001  LLC: 16384
+rand_sets[268]: 6001
+Assign rand_sets[269]: 2499  LLC: 16384
+rand_sets[269]: 2499
+Assign rand_sets[270]: 3786  LLC: 16384
+rand_sets[270]: 3786
+Assign rand_sets[271]: 5214  LLC: 16384
+rand_sets[271]: 5214
+Assign rand_sets[272]: 9445  LLC: 16384
+rand_sets[272]: 9445
+Assign rand_sets[273]: 1322  LLC: 16384
+rand_sets[273]: 1322
+Assign rand_sets[274]: 9523  LLC: 16384
+rand_sets[274]: 9523
+Assign rand_sets[275]: 3244  LLC: 16384
+rand_sets[275]: 3244
+Assign rand_sets[276]: 13192  LLC: 16384
+rand_sets[276]: 13192
+Assign rand_sets[277]: 7505  LLC: 16384
+rand_sets[277]: 7505
+Assign rand_sets[278]: 5990  LLC: 16384
+rand_sets[278]: 5990
+Assign rand_sets[279]: 3745  LLC: 16384
+rand_sets[279]: 3745
+Assign rand_sets[280]: 10875  LLC: 16384
+rand_sets[280]: 10875
+Assign rand_sets[281]: 3445  LLC: 16384
+rand_sets[281]: 3445
+Assign rand_sets[282]: 15207  LLC: 16384
+rand_sets[282]: 15207
+Assign rand_sets[283]: 12388  LLC: 16384
+Assign rand_sets[283]: 6042  LLC: 16384
+rand_sets[283]: 6042
+Assign rand_sets[284]: 9833  LLC: 16384
+rand_sets[284]: 9833
+Assign rand_sets[285]: 1775  LLC: 16384
+rand_sets[285]: 1775
+Assign rand_sets[286]: 4719  LLC: 16384
+rand_sets[286]: 4719
+Assign rand_sets[287]: 342  LLC: 16384
+rand_sets[287]: 342
+Assign rand_sets[288]: 12610  LLC: 16384
+rand_sets[288]: 12610
+Assign rand_sets[289]: 15008  LLC: 16384
+rand_sets[289]: 15008
+Assign rand_sets[290]: 4125  LLC: 16384
+rand_sets[290]: 4125
+Assign rand_sets[291]: 14929  LLC: 16384
+rand_sets[291]: 14929
+Assign rand_sets[292]: 4293  LLC: 16384
+rand_sets[292]: 4293
+Assign rand_sets[293]: 1282  LLC: 16384
+rand_sets[293]: 1282
+Assign rand_sets[294]: 11511  LLC: 16384
+rand_sets[294]: 11511
+Assign rand_sets[295]: 4795  LLC: 16384
+rand_sets[295]: 4795
+Assign rand_sets[296]: 3474  LLC: 16384
+rand_sets[296]: 3474
+Assign rand_sets[297]: 6469  LLC: 16384
+rand_sets[297]: 6469
+Assign rand_sets[298]: 2750  LLC: 16384
+rand_sets[298]: 2750
+Assign rand_sets[299]: 879  LLC: 16384
+rand_sets[299]: 879
+Assign rand_sets[300]: 14605  LLC: 16384
+rand_sets[300]: 14605
+Assign rand_sets[301]: 13750  LLC: 16384
+rand_sets[301]: 13750
+Assign rand_sets[302]: 13368  LLC: 16384
+rand_sets[302]: 13368
+Assign rand_sets[303]: 11980  LLC: 16384
+rand_sets[303]: 11980
+Assign rand_sets[304]: 4880  LLC: 16384
+rand_sets[304]: 4880
+Assign rand_sets[305]: 5629  LLC: 16384
+rand_sets[305]: 5629
+Assign rand_sets[306]: 2235  LLC: 16384
+rand_sets[306]: 2235
+Assign rand_sets[307]: 4948  LLC: 16384
+rand_sets[307]: 4948
+Assign rand_sets[308]: 7761  LLC: 16384
+rand_sets[308]: 7761
+Assign rand_sets[309]: 3356  LLC: 16384
+rand_sets[309]: 3356
+Assign rand_sets[310]: 5243  LLC: 16384
+rand_sets[310]: 5243
+Assign rand_sets[311]: 3079  LLC: 16384
+rand_sets[311]: 3079
+Assign rand_sets[312]: 3988  LLC: 16384
+rand_sets[312]: 3988
+Assign rand_sets[313]: 807  LLC: 16384
+rand_sets[313]: 807
+Assign rand_sets[314]: 8595  LLC: 16384
+rand_sets[314]: 8595
+Assign rand_sets[315]: 14973  LLC: 16384
+rand_sets[315]: 14973
+Assign rand_sets[316]: 914  LLC: 16384
+rand_sets[316]: 914
+Assign rand_sets[317]: 4803  LLC: 16384
+rand_sets[317]: 4803
+Assign rand_sets[318]: 3540  LLC: 16384
+rand_sets[318]: 3540
+Assign rand_sets[319]: 14022  LLC: 16384
+rand_sets[319]: 14022
+Assign rand_sets[320]: 10149  LLC: 16384
+rand_sets[320]: 10149
+Assign rand_sets[321]: 609  LLC: 16384
+rand_sets[321]: 609
+Assign rand_sets[322]: 12625  LLC: 16384
+rand_sets[322]: 12625
+Assign rand_sets[323]: 8449  LLC: 16384
+rand_sets[323]: 8449
+Assign rand_sets[324]: 312  LLC: 16384
+rand_sets[324]: 312
+Assign rand_sets[325]: 5432  LLC: 16384
+rand_sets[325]: 5432
+Assign rand_sets[326]: 8615  LLC: 16384
+rand_sets[326]: 8615
+Assign rand_sets[327]: 12479  LLC: 16384
+rand_sets[327]: 12479
+Assign rand_sets[328]: 16369  LLC: 16384
+rand_sets[328]: 16369
+Assign rand_sets[329]: 12292  LLC: 16384
+rand_sets[329]: 12292
+Assign rand_sets[330]: 7693  LLC: 16384
+rand_sets[330]: 7693
+Assign rand_sets[331]: 7701  LLC: 16384
+rand_sets[331]: 7701
+Assign rand_sets[332]: 1691  LLC: 16384
+rand_sets[332]: 1691
+Assign rand_sets[333]: 3456  LLC: 16384
+rand_sets[333]: 3456
+Assign rand_sets[334]: 12319  LLC: 16384
+rand_sets[334]: 12319
+Assign rand_sets[335]: 131  LLC: 16384
+rand_sets[335]: 131
+Assign rand_sets[336]: 5845  LLC: 16384
+rand_sets[336]: 5845
+Assign rand_sets[337]: 16036  LLC: 16384
+rand_sets[337]: 16036
+Assign rand_sets[338]: 3433  LLC: 16384
+rand_sets[338]: 3433
+Assign rand_sets[339]: 16264  LLC: 16384
+rand_sets[339]: 16264
+Assign rand_sets[340]: 2940  LLC: 16384
+rand_sets[340]: 2940
+Assign rand_sets[341]: 12959  LLC: 16384
+rand_sets[341]: 12959
+Assign rand_sets[342]: 1462  LLC: 16384
+rand_sets[342]: 1462
+Assign rand_sets[343]: 12545  LLC: 16384
+rand_sets[343]: 12545
+Assign rand_sets[344]: 3546  LLC: 16384
+rand_sets[344]: 3546
+Assign rand_sets[345]: 659  LLC: 16384
+rand_sets[345]: 659
+Assign rand_sets[346]: 2583  LLC: 16384
+rand_sets[346]: 2583
+Assign rand_sets[347]: 325  LLC: 16384
+rand_sets[347]: 325
+Assign rand_sets[348]: 12683  LLC: 16384
+rand_sets[348]: 12683
+Assign rand_sets[349]: 15634  LLC: 16384
+rand_sets[349]: 15634
+Assign rand_sets[350]: 6322  LLC: 16384
+rand_sets[350]: 6322
+Assign rand_sets[351]: 258  LLC: 16384
+rand_sets[351]: 258
+Assign rand_sets[352]: 9011  LLC: 16384
+rand_sets[352]: 9011
+Assign rand_sets[353]: 11612  LLC: 16384
+rand_sets[353]: 11612
+Assign rand_sets[354]: 6480  LLC: 16384
+rand_sets[354]: 6480
+Assign rand_sets[355]: 13526  LLC: 16384
+rand_sets[355]: 13526
+Assign rand_sets[356]: 5601  LLC: 16384
+rand_sets[356]: 5601
+Assign rand_sets[357]: 6742  LLC: 16384
+rand_sets[357]: 6742
+Assign rand_sets[358]: 13988  LLC: 16384
+rand_sets[358]: 13988
+Assign rand_sets[359]: 685  LLC: 16384
+rand_sets[359]: 685
+Assign rand_sets[360]: 6978  LLC: 16384
+rand_sets[360]: 6978
+Assign rand_sets[361]: 14666  LLC: 16384
+rand_sets[361]: 14666
+Assign rand_sets[362]: 92  LLC: 16384
+rand_sets[362]: 92
+Assign rand_sets[363]: 6365  LLC: 16384
+rand_sets[363]: 6365
+Assign rand_sets[364]: 4742  LLC: 16384
+rand_sets[364]: 4742
+Assign rand_sets[365]: 4193  LLC: 16384
+rand_sets[365]: 4193
+Assign rand_sets[366]: 8681  LLC: 16384
+rand_sets[366]: 8681
+Assign rand_sets[367]: 11011  LLC: 16384
+rand_sets[367]: 11011
+Assign rand_sets[368]: 6674  LLC: 16384
+rand_sets[368]: 6674
+Assign rand_sets[369]: 1249  LLC: 16384
+rand_sets[369]: 1249
+Assign rand_sets[370]: 14863  LLC: 16384
+rand_sets[370]: 14863
+Assign rand_sets[371]: 8347  LLC: 16384
+rand_sets[371]: 8347
+Assign rand_sets[372]: 12266  LLC: 16384
+rand_sets[372]: 12266
+Assign rand_sets[373]: 4390  LLC: 16384
+rand_sets[373]: 4390
+Assign rand_sets[374]: 7980  LLC: 16384
+rand_sets[374]: 7980
+Assign rand_sets[375]: 4449  LLC: 16384
+rand_sets[375]: 4449
+Assign rand_sets[376]: 11484  LLC: 16384
+rand_sets[376]: 11484
+Assign rand_sets[377]: 7778  LLC: 16384
+rand_sets[377]: 7778
+Assign rand_sets[378]: 7240  LLC: 16384
+rand_sets[378]: 7240
+Assign rand_sets[379]: 11115  LLC: 16384
+Assign rand_sets[379]: 1645  LLC: 16384
+rand_sets[379]: 1645
+Assign rand_sets[380]: 15892  LLC: 16384
+rand_sets[380]: 15892
+Assign rand_sets[381]: 13024  LLC: 16384
+rand_sets[381]: 13024
+Assign rand_sets[382]: 7939  LLC: 16384
+rand_sets[382]: 7939
+Assign rand_sets[383]: 901  LLC: 16384
+rand_sets[383]: 901
+Assign rand_sets[384]: 16202  LLC: 16384
+rand_sets[384]: 16202
+Assign rand_sets[385]: 11634  LLC: 16384
+rand_sets[385]: 11634
+Assign rand_sets[386]: 11334  LLC: 16384
+rand_sets[386]: 11334
+Assign rand_sets[387]: 4058  LLC: 16384
+rand_sets[387]: 4058
+Assign rand_sets[388]: 7062  LLC: 16384
+rand_sets[388]: 7062
+Assign rand_sets[389]: 3784  LLC: 16384
+rand_sets[389]: 3784
+Assign rand_sets[390]: 11901  LLC: 16384
+rand_sets[390]: 11901
+Assign rand_sets[391]: 6684  LLC: 16384
+rand_sets[391]: 6684
+Assign rand_sets[392]: 14289  LLC: 16384
+rand_sets[392]: 14289
+Assign rand_sets[393]: 10757  LLC: 16384
+rand_sets[393]: 10757
+Assign rand_sets[394]: 318  LLC: 16384
+rand_sets[394]: 318
+Assign rand_sets[395]: 10469  LLC: 16384
+rand_sets[395]: 10469
+Assign rand_sets[396]: 13458  LLC: 16384
+rand_sets[396]: 13458
+Assign rand_sets[397]: 12144  LLC: 16384
+rand_sets[397]: 12144
+Assign rand_sets[398]: 6979  LLC: 16384
+rand_sets[398]: 6979
+Assign rand_sets[399]: 4703  LLC: 16384
+rand_sets[399]: 4703
+Assign rand_sets[400]: 2668  LLC: 16384
+rand_sets[400]: 2668
+Assign rand_sets[401]: 14851  LLC: 16384
+rand_sets[401]: 14851
+Assign rand_sets[402]: 15109  LLC: 16384
+rand_sets[402]: 15109
+Assign rand_sets[403]: 691  LLC: 16384
+rand_sets[403]: 691
+Assign rand_sets[404]: 11755  LLC: 16384
+rand_sets[404]: 11755
+Assign rand_sets[405]: 10675  LLC: 16384
+rand_sets[405]: 10675
+Assign rand_sets[406]: 288  LLC: 16384
+rand_sets[406]: 288
+Assign rand_sets[407]: 15669  LLC: 16384
+rand_sets[407]: 15669
+Assign rand_sets[408]: 14157  LLC: 16384
+rand_sets[408]: 14157
+Assign rand_sets[409]: 5758  LLC: 16384
+Assign rand_sets[409]: 5222  LLC: 16384
+rand_sets[409]: 5222
+Assign rand_sets[410]: 1104  LLC: 16384
+rand_sets[410]: 1104
+Assign rand_sets[411]: 2561  LLC: 16384
+rand_sets[411]: 2561
+Assign rand_sets[412]: 10294  LLC: 16384
+rand_sets[412]: 10294
+Assign rand_sets[413]: 11200  LLC: 16384
+rand_sets[413]: 11200
+Assign rand_sets[414]: 5171  LLC: 16384
+rand_sets[414]: 5171
+Assign rand_sets[415]: 14305  LLC: 16384
+rand_sets[415]: 14305
+Assign rand_sets[416]: 7951  LLC: 16384
+rand_sets[416]: 7951
+Assign rand_sets[417]: 6601  LLC: 16384
+rand_sets[417]: 6601
+Assign rand_sets[418]: 7224  LLC: 16384
+rand_sets[418]: 7224
+Assign rand_sets[419]: 7214  LLC: 16384
+rand_sets[419]: 7214
+Assign rand_sets[420]: 6377  LLC: 16384
+rand_sets[420]: 6377
+Assign rand_sets[421]: 13865  LLC: 16384
+rand_sets[421]: 13865
+Assign rand_sets[422]: 8985  LLC: 16384
+rand_sets[422]: 8985
+Assign rand_sets[423]: 10831  LLC: 16384
+rand_sets[423]: 10831
+Assign rand_sets[424]: 8030  LLC: 16384
+rand_sets[424]: 8030
+Assign rand_sets[425]: 177  LLC: 16384
+rand_sets[425]: 177
+Assign rand_sets[426]: 465  LLC: 16384
+rand_sets[426]: 465
+Assign rand_sets[427]: 11337  LLC: 16384
+rand_sets[427]: 11337
+Assign rand_sets[428]: 2699  LLC: 16384
+rand_sets[428]: 2699
+Assign rand_sets[429]: 6715  LLC: 16384
+rand_sets[429]: 6715
+Assign rand_sets[430]: 8531  LLC: 16384
+rand_sets[430]: 8531
+Assign rand_sets[431]: 11517  LLC: 16384
+rand_sets[431]: 11517
+Assign rand_sets[432]: 1183  LLC: 16384
+rand_sets[432]: 1183
+Assign rand_sets[433]: 12095  LLC: 16384
+rand_sets[433]: 12095
+Assign rand_sets[434]: 9966  LLC: 16384
+rand_sets[434]: 9966
+Assign rand_sets[435]: 2597  LLC: 16384
+rand_sets[435]: 2597
+Assign rand_sets[436]: 14885  LLC: 16384
+rand_sets[436]: 14885
+Assign rand_sets[437]: 12341  LLC: 16384
+rand_sets[437]: 12341
+Assign rand_sets[438]: 15227  LLC: 16384
+rand_sets[438]: 15227
+Assign rand_sets[439]: 10765  LLC: 16384
+rand_sets[439]: 10765
+Assign rand_sets[440]: 785  LLC: 16384
+rand_sets[440]: 785
+Assign rand_sets[441]: 13231  LLC: 16384
+rand_sets[441]: 13231
+Assign rand_sets[442]: 6476  LLC: 16384
+rand_sets[442]: 6476
+Assign rand_sets[443]: 4369  LLC: 16384
+rand_sets[443]: 4369
+Assign rand_sets[444]: 4236  LLC: 16384
+rand_sets[444]: 4236
+Assign rand_sets[445]: 7730  LLC: 16384
+rand_sets[445]: 7730
+Assign rand_sets[446]: 3284  LLC: 16384
+rand_sets[446]: 3284
+Assign rand_sets[447]: 4826  LLC: 16384
+rand_sets[447]: 4826
+Assign rand_sets[448]: 11135  LLC: 16384
+rand_sets[448]: 11135
+Assign rand_sets[449]: 11224  LLC: 16384
+rand_sets[449]: 11224
+Assign rand_sets[450]: 5142  LLC: 16384
+rand_sets[450]: 5142
+Assign rand_sets[451]: 6999  LLC: 16384
+rand_sets[451]: 6999
+Assign rand_sets[452]: 4065  LLC: 16384
+rand_sets[452]: 4065
+Assign rand_sets[453]: 14246  LLC: 16384
+rand_sets[453]: 14246
+Assign rand_sets[454]: 2254  LLC: 16384
+rand_sets[454]: 2254
+Assign rand_sets[455]: 2941  LLC: 16384
+rand_sets[455]: 2941
+Assign rand_sets[456]: 12481  LLC: 16384
+rand_sets[456]: 12481
+Assign rand_sets[457]: 7342  LLC: 16384
+rand_sets[457]: 7342
+Assign rand_sets[458]: 354  LLC: 16384
+rand_sets[458]: 354
+Assign rand_sets[459]: 9663  LLC: 16384
+rand_sets[459]: 9663
+Assign rand_sets[460]: 12563  LLC: 16384
+rand_sets[460]: 12563
+Assign rand_sets[461]: 3300  LLC: 16384
+rand_sets[461]: 3300
+Assign rand_sets[462]: 5255  LLC: 16384
+rand_sets[462]: 5255
+Assign rand_sets[463]: 1612  LLC: 16384
+rand_sets[463]: 1612
+Assign rand_sets[464]: 7482  LLC: 16384
+rand_sets[464]: 7482
+Assign rand_sets[465]: 14785  LLC: 16384
+rand_sets[465]: 14785
+Assign rand_sets[466]: 11187  LLC: 16384
+rand_sets[466]: 11187
+Assign rand_sets[467]: 8972  LLC: 16384
+rand_sets[467]: 8972
+Assign rand_sets[468]: 12633  LLC: 16384
+rand_sets[468]: 12633
+Assign rand_sets[469]: 10905  LLC: 16384
+rand_sets[469]: 10905
+Assign rand_sets[470]: 4167  LLC: 16384
+rand_sets[470]: 4167
+Assign rand_sets[471]: 3928  LLC: 16384
+rand_sets[471]: 3928
+Assign rand_sets[472]: 14426  LLC: 16384
+rand_sets[472]: 14426
+Assign rand_sets[473]: 7357  LLC: 16384
+rand_sets[473]: 7357
+Assign rand_sets[474]: 8056  LLC: 16384
+rand_sets[474]: 8056
+Assign rand_sets[475]: 16252  LLC: 16384
+rand_sets[475]: 16252
+Assign rand_sets[476]: 4026  LLC: 16384
+rand_sets[476]: 4026
+Assign rand_sets[477]: 2384  LLC: 16384
+rand_sets[477]: 2384
+Assign rand_sets[478]: 4353  LLC: 16384
+rand_sets[478]: 4353
+Assign rand_sets[479]: 2029  LLC: 16384
+rand_sets[479]: 2029
+Assign rand_sets[480]: 7195  LLC: 16384
+rand_sets[480]: 7195
+Assign rand_sets[481]: 11498  LLC: 16384
+rand_sets[481]: 11498
+Assign rand_sets[482]: 15498  LLC: 16384
+rand_sets[482]: 15498
+Assign rand_sets[483]: 5193  LLC: 16384
+rand_sets[483]: 5193
+Assign rand_sets[484]: 14984  LLC: 16384
+rand_sets[484]: 14984
+Assign rand_sets[485]: 11502  LLC: 16384
+rand_sets[485]: 11502
+Assign rand_sets[486]: 2518  LLC: 16384
+rand_sets[486]: 2518
+Assign rand_sets[487]: 4628  LLC: 16384
+rand_sets[487]: 4628
+Assign rand_sets[488]: 14981  LLC: 16384
+rand_sets[488]: 14981
+Assign rand_sets[489]: 13995  LLC: 16384
+rand_sets[489]: 13995
+Assign rand_sets[490]: 14256  LLC: 16384
+rand_sets[490]: 14256
+Assign rand_sets[491]: 2860  LLC: 16384
+rand_sets[491]: 2860
+Assign rand_sets[492]: 11486  LLC: 16384
+rand_sets[492]: 11486
+Assign rand_sets[493]: 13365  LLC: 16384
+rand_sets[493]: 13365
+Assign rand_sets[494]: 9619  LLC: 16384
+rand_sets[494]: 9619
+Assign rand_sets[495]: 11281  LLC: 16384
+rand_sets[495]: 11281
+Assign rand_sets[496]: 4909  LLC: 16384
+rand_sets[496]: 4909
+Assign rand_sets[497]: 13057  LLC: 16384
+rand_sets[497]: 13057
+Assign rand_sets[498]: 3100  LLC: 16384
+rand_sets[498]: 3100
+Assign rand_sets[499]: 12759  LLC: 16384
+rand_sets[499]: 12759
+Assign rand_sets[500]: 15400  LLC: 16384
+rand_sets[500]: 15400
+Assign rand_sets[501]: 6211  LLC: 16384
+rand_sets[501]: 6211
+Assign rand_sets[502]: 4144  LLC: 16384
+rand_sets[502]: 4144
+Assign rand_sets[503]: 15335  LLC: 16384
+rand_sets[503]: 15335
+Assign rand_sets[504]: 6320  LLC: 16384
+rand_sets[504]: 6320
+Assign rand_sets[505]: 16136  LLC: 16384
+rand_sets[505]: 16136
+Assign rand_sets[506]: 7405  LLC: 16384
+rand_sets[506]: 7405
+Assign rand_sets[507]: 15737  LLC: 16384
+rand_sets[507]: 15737
+Assign rand_sets[508]: 5529  LLC: 16384
+rand_sets[508]: 5529
+Assign rand_sets[509]: 7187  LLC: 16384
+rand_sets[509]: 7187
+Assign rand_sets[510]: 12369  LLC: 16384
+rand_sets[510]: 12369
+Assign rand_sets[511]: 2770  LLC: 16384
+rand_sets[511]: 2770
+LLC Next Line Prefetcher
+
+Warmup complete CPU 0 instructions: 1055239 cycles: 663239 (Simulation time: 0 hr 0 min 21 sec) 
+Warmup complete CPU 1 instructions: 1113400 cycles: 663239 (Simulation time: 0 hr 0 min 21 sec) 
+Warmup complete CPU 2 instructions: 1167049 cycles: 663239 (Simulation time: 0 hr 0 min 21 sec) 
+Warmup complete CPU 3 instructions: 1112455 cycles: 663239 (Simulation time: 0 hr 0 min 21 sec) 
+Warmup complete CPU 4 instructions: 1182228 cycles: 663239 (Simulation time: 0 hr 0 min 21 sec) 
+Warmup complete CPU 5 instructions: 1000002 cycles: 663239 (Simulation time: 0 hr 0 min 21 sec) 
+Warmup complete CPU 6 instructions: 1451945 cycles: 663238 (Simulation time: 0 hr 0 min 21 sec) 
+Warmup complete CPU 7 instructions: 1142587 cycles: 663238 (Simulation time: 0 hr 0 min 21 sec) 
+
+Heartbeat CPU 6 instructions: 10000002 cycles: 8499068 heartbeat IPC: 1.1766 cumulative IPC: 1.09089 (Simulation time: 0 hr 2 min 49 sec) 
+Finished CPU 6 instructions: 10000002 cycles: 9162256 cumulative IPC: 1.09143 (Simulation time: 0 hr 3 min 15 sec) 
+Heartbeat CPU 2 instructions: 10000000 cycles: 10308453 heartbeat IPC: 0.970078 cumulative IPC: 0.915786 (Simulation time: 0 hr 3 min 24 sec) 
+Heartbeat CPU 3 instructions: 10000000 cycles: 10564510 heartbeat IPC: 0.946565 cumulative IPC: 0.897617 (Simulation time: 0 hr 3 min 29 sec) 
+Finished CPU 2 instructions: 10000001 cycles: 10911639 cumulative IPC: 0.916453 (Simulation time: 0 hr 3 min 48 sec) 
+Finished CPU 3 instructions: 10000000 cycles: 11164312 cumulative IPC: 0.895711 (Simulation time: 0 hr 3 min 53 sec) 
+Heartbeat CPU 7 instructions: 10000002 cycles: 13504333 heartbeat IPC: 0.740503 cumulative IPC: 0.689771 (Simulation time: 0 hr 4 min 26 sec) 
+Heartbeat CPU 0 instructions: 10000000 cycles: 14091777 heartbeat IPC: 0.709634 cumulative IPC: 0.666101 (Simulation time: 0 hr 4 min 38 sec) 
+Finished CPU 7 instructions: 10000000 cycles: 14164315 cumulative IPC: 0.706 (Simulation time: 0 hr 4 min 52 sec) 
+Finished CPU 0 instructions: 10000002 cycles: 15071783 cumulative IPC: 0.663492 (Simulation time: 0 hr 5 min 10 sec) 
+Heartbeat CPU 4 instructions: 10000000 cycles: 16570267 heartbeat IPC: 0.603491 cumulative IPC: 0.554332 (Simulation time: 0 hr 5 min 27 sec) 
+Heartbeat CPU 6 instructions: 20000001 cycles: 17774775 heartbeat IPC: 1.07808 cumulative IPC: 1.08395 (Simulation time: 0 hr 5 min 51 sec) 
+Finished CPU 4 instructions: 10000000 cycles: 17988537 cumulative IPC: 0.55591 (Simulation time: 0 hr 6 min 9 sec) 
+Heartbeat CPU 2 instructions: 20000002 cycles: 21640968 heartbeat IPC: 0.882417 cumulative IPC: 0.897759 (Simulation time: 0 hr 7 min 10 sec) 
+Heartbeat CPU 3 instructions: 20000000 cycles: 21874983 heartbeat IPC: 0.884136 cumulative IPC: 0.890429 (Simulation time: 0 hr 7 min 15 sec) 
+Heartbeat CPU 1 instructions: 10000000 cycles: 22963201 heartbeat IPC: 0.435479 cumulative IPC: 0.398503 (Simulation time: 0 hr 7 min 38 sec) 
+Heartbeat CPU 7 instructions: 20000001 cycles: 25260860 heartbeat IPC: 0.850591 cumulative IPC: 0.766636 (Simulation time: 0 hr 8 min 25 sec) 
+Heartbeat CPU 5 instructions: 10000001 cycles: 25368762 heartbeat IPC: 0.394186 cumulative IPC: 0.364291 (Simulation time: 0 hr 8 min 28 sec) 
+Finished CPU 1 instructions: 10000000 cycles: 25170548 cumulative IPC: 0.39729 (Simulation time: 0 hr 8 min 38 sec) 
+Heartbeat CPU 6 instructions: 30000000 cycles: 27201665 heartbeat IPC: 1.0608 cumulative IPC: 1.07573 (Simulation time: 0 hr 9 min 6 sec) 
+Finished CPU 5 instructions: 10000001 cycles: 26652948 cumulative IPC: 0.375193 (Simulation time: 0 hr 9 min 8 sec) 
+
+CPU 0 Branch Prediction Accuracy: 97.1899% MPKI: 3.74555
+
+CPU 1 Branch Prediction Accuracy: 94.074% MPKI: 12.4116
+
+CPU 2 Branch Prediction Accuracy: 89.1459% MPKI: 13.3649
+
+CPU 3 Branch Prediction Accuracy: 99.6656% MPKI: 0.0226481
+
+CPU 4 Branch Prediction Accuracy: 94.965% MPKI: 5.47416
+
+CPU 5 Branch Prediction Accuracy: 97.9092% MPKI: 5.3797
+
+CPU 6 Branch Prediction Accuracy: 86.8272% MPKI: 4.66295
+
+CPU 7 Branch Prediction Accuracy: 92.0556% MPKI: 7.88277
+
+ChampSim completed all CPUs
+
+Total Simulation Statistics (not including warmup)
+
+CPU 0 cumulative IPC: 0.676031 instructions: 18018208 cycles: 26652948
+L1D TOTAL     ACCESS:    9807184  HIT:    9799164  MISS:       8020
+L1D LOAD      ACCESS:    3200388  HIT:    3197550  MISS:       2838
+L1D RFO       ACCESS:    3633881  HIT:    3633612  MISS:        269
+L1D PREFETCH  ACCESS:    2972915  HIT:    2968002  MISS:       4913
+L1D WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+L1I TOTAL     ACCESS:    5400215  HIT:    5399706  MISS:        509
+L1I LOAD      ACCESS:    5400215  HIT:    5399706  MISS:        509
+L1I RFO       ACCESS:          0  HIT:          0  MISS:          0
+L1I PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+L1I WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+L2C TOTAL     ACCESS:      15481  HIT:      13351  MISS:       2130
+L2C LOAD      ACCESS:       3316  HIT:       2537  MISS:        779
+L2C RFO       ACCESS:        268  HIT:        155  MISS:        113
+L2C PREFETCH  ACCESS:      10718  HIT:       9481  MISS:       1237
+L2C WRITEBACK ACCESS:       1179  HIT:       1178  MISS:          1
+CPU 0 L1D next line prefetcher final stats
+CPU 0 L2C next line prefetcher final stats
+LLC TOTAL     ACCESS:       3038  HIT:        620  MISS:       2418
+LLC LOAD      ACCESS:        761  HIT:        117  MISS:        644
+LLC RFO       ACCESS:        113  HIT:          0  MISS:        113
+LLC PREFETCH  ACCESS:       2151  HIT:        490  MISS:       1661
+LLC WRITEBACK ACCESS:         13  HIT:         13  MISS:          0
+
+CPU 1 cumulative IPC: 0.397665 instructions: 10598932 cycles: 26652948
+L1D TOTAL     ACCESS:    5907029  HIT:    5732613  MISS:     174416
+L1D LOAD      ACCESS:    2398805  HIT:    2389271  MISS:       9534
+L1D RFO       ACCESS:    1191946  HIT:    1191946  MISS:          0
+L1D PREFETCH  ACCESS:    2316278  HIT:    2151396  MISS:     164882
+L1D WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+L1I TOTAL     ACCESS:    2526156  HIT:    2526156  MISS:          0
+L1I LOAD      ACCESS:    2526156  HIT:    2526156  MISS:          0
+L1I RFO       ACCESS:          0  HIT:          0  MISS:          0
+L1I PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+L1I WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+L2C TOTAL     ACCESS:     330185  HIT:     241516  MISS:      88669
+L2C LOAD      ACCESS:       7713  HIT:       4481  MISS:       3232
+L2C RFO       ACCESS:          0  HIT:          0  MISS:          0
+L2C PREFETCH  ACCESS:     321514  HIT:     236077  MISS:      85437
+L2C WRITEBACK ACCESS:        958  HIT:        958  MISS:          0
+CPU 1 L1D next line prefetcher final stats
+CPU 1 L2C next line prefetcher final stats
+LLC TOTAL     ACCESS:     155435  HIT:      65800  MISS:      89635
+LLC LOAD      ACCESS:       3226  HIT:        184  MISS:       3042
+LLC RFO       ACCESS:          0  HIT:          0  MISS:          0
+LLC PREFETCH  ACCESS:     151861  HIT:      65268  MISS:      86593
+LLC WRITEBACK ACCESS:        348  HIT:        348  MISS:          0
+
+CPU 2 cumulative IPC: 0.881997 instructions: 23507831 cycles: 26652948
+L1D TOTAL     ACCESS:    7480847  HIT:    7427180  MISS:      53667
+L1D LOAD      ACCESS:    3625730  HIT:    3625100  MISS:        630
+L1D RFO       ACCESS:    1166616  HIT:    1122629  MISS:      43987
+L1D PREFETCH  ACCESS:    2688501  HIT:    2679451  MISS:       9050
+L1D WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+L1I TOTAL     ACCESS:    7240243  HIT:    7240226  MISS:         17
+L1I LOAD      ACCESS:    7240243  HIT:    7240226  MISS:         17
+L1I RFO       ACCESS:          0  HIT:          0  MISS:          0
+L1I PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+L1I WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+L2C TOTAL     ACCESS:     106632  HIT:      53739  MISS:      52893
+L2C LOAD      ACCESS:        643  HIT:        466  MISS:        177
+L2C RFO       ACCESS:      38472  HIT:        160  MISS:      38312
+L2C PREFETCH  ACCESS:      23662  HIT:       9258  MISS:      14404
+L2C WRITEBACK ACCESS:      43855  HIT:      43855  MISS:          0
+CPU 2 L1D next line prefetcher final stats
+CPU 2 L2C next line prefetcher final stats
+LLC TOTAL     ACCESS:     104198  HIT:      51300  MISS:      52898
+LLC LOAD      ACCESS:        177  HIT:          9  MISS:        168
+LLC RFO       ACCESS:      32947  HIT:       2254  MISS:      30693
+LLC PREFETCH  ACCESS:      30359  HIT:       8412  MISS:      21947
+LLC WRITEBACK ACCESS:      40715  HIT:      40625  MISS:         90
+
+CPU 3 cumulative IPC: 0.887043 instructions: 23642309 cycles: 26652948
+L1D TOTAL     ACCESS:   14580161  HIT:   11794206  MISS:    2785955
+L1D LOAD      ACCESS:    7839367  HIT:    6143535  MISS:    1695832
+L1D RFO       ACCESS:    1884384  HIT:    1716998  MISS:     167386
+L1D PREFETCH  ACCESS:    4856410  HIT:    3933673  MISS:     922737
+L1D WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+L1I TOTAL     ACCESS:    6544525  HIT:    5929719  MISS:     614806
+L1I LOAD      ACCESS:    6544525  HIT:    5929719  MISS:     614806
+L1I RFO       ACCESS:          0  HIT:          0  MISS:          0
+L1I PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+L1I WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+L2C TOTAL     ACCESS:    5432614  HIT:    5151368  MISS:     281246
+L2C LOAD      ACCESS:    2299733  HIT:    2248008  MISS:      51725
+L2C RFO       ACCESS:     167154  HIT:     140410  MISS:      26744
+L2C PREFETCH  ACCESS:    2765220  HIT:    2562712  MISS:     202508
+L2C WRITEBACK ACCESS:     200507  HIT:     200238  MISS:        269
+CPU 3 L1D next line prefetcher final stats
+CPU 3 L2C next line prefetcher final stats
+LLC TOTAL     ACCESS:     538508  HIT:     476366  MISS:      62142
+LLC LOAD      ACCESS:      49233  HIT:      48346  MISS:        887
+LLC RFO       ACCESS:      25295  HIT:      11335  MISS:      13960
+LLC PREFETCH  ACCESS:     436413  HIT:     389128  MISS:      47285
+LLC WRITEBACK ACCESS:      27567  HIT:      27557  MISS:         10
+
+CPU 4 cumulative IPC: 0.552221 instructions: 14718311 cycles: 26652948
+L1D TOTAL     ACCESS:    4858768  HIT:    4858164  MISS:        604
+L1D LOAD      ACCESS:    2173498  HIT:    2173371  MISS:        127
+L1D RFO       ACCESS:     567254  HIT:     567020  MISS:        234
+L1D PREFETCH  ACCESS:    2118016  HIT:    2117773  MISS:        243
+L1D WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+L1I TOTAL     ACCESS:    4692942  HIT:    4692667  MISS:        275
+L1I LOAD      ACCESS:    4692942  HIT:    4692667  MISS:        275
+L1I RFO       ACCESS:          0  HIT:          0  MISS:          0
+L1I PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+L1I WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+L2C TOTAL     ACCESS:       1347  HIT:        483  MISS:        864
+L2C LOAD      ACCESS:        370  HIT:        108  MISS:        262
+L2C RFO       ACCESS:        234  HIT:         22  MISS:        212
+L2C PREFETCH  ACCESS:        640  HIT:        250  MISS:        390
+L2C WRITEBACK ACCESS:        103  HIT:        103  MISS:          0
+CPU 4 L1D next line prefetcher final stats
+CPU 4 L2C next line prefetcher final stats
+LLC TOTAL     ACCESS:       1156  HIT:        243  MISS:        913
+LLC LOAD      ACCESS:        231  HIT:         32  MISS:        199
+LLC RFO       ACCESS:        212  HIT:         13  MISS:        199
+LLC PREFETCH  ACCESS:        713  HIT:        198  MISS:        515
+LLC WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+
+CPU 5 cumulative IPC: 0.375193 instructions: 10000001 cycles: 26652948
+L1D TOTAL     ACCESS:    4060373  HIT:    3350586  MISS:     709787
+L1D LOAD      ACCESS:    1803816  HIT:    1425708  MISS:     378108
+L1D RFO       ACCESS:     716545  HIT:     701809  MISS:      14736
+L1D PREFETCH  ACCESS:    1540012  HIT:    1223069  MISS:     316943
+L1D WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+L1I TOTAL     ACCESS:    3589535  HIT:    3562416  MISS:      27119
+L1I LOAD      ACCESS:    3589535  HIT:    3562416  MISS:      27119
+L1I RFO       ACCESS:          0  HIT:          0  MISS:          0
+L1I PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+L1I WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+L2C TOTAL     ACCESS:    1156805  HIT:     533440  MISS:     623365
+L2C LOAD      ACCESS:     379556  HIT:     119641  MISS:     259915
+L2C RFO       ACCESS:      14658  HIT:       3410  MISS:      11248
+L2C PREFETCH  ACCESS:     734184  HIT:     382058  MISS:     352126
+L2C WRITEBACK ACCESS:      28407  HIT:      28331  MISS:         76
+CPU 5 L1D next line prefetcher final stats
+CPU 5 L2C next line prefetcher final stats
+LLC TOTAL     ACCESS:     947971  HIT:     929089  MISS:      18882
+LLC LOAD      ACCESS:     258277  HIT:     255987  MISS:       2290
+LLC RFO       ACCESS:      11246  HIT:       2171  MISS:       9075
+LLC PREFETCH  ACCESS:     658239  HIT:     650730  MISS:       7509
+LLC WRITEBACK ACCESS:      20209  HIT:      20201  MISS:          8
+
+CPU 6 cumulative IPC: 1.07594 instructions: 28676855 cycles: 26652949
+L1D TOTAL     ACCESS:    6508448  HIT:    6492220  MISS:      16228
+L1D LOAD      ACCESS:    2563728  HIT:    2551195  MISS:      12533
+L1D RFO       ACCESS:    1914044  HIT:    1913432  MISS:        612
+L1D PREFETCH  ACCESS:    2030676  HIT:    2027593  MISS:       3083
+L1D WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+L1I TOTAL     ACCESS:    7463126  HIT:    7463102  MISS:         24
+L1I LOAD      ACCESS:    7463126  HIT:    7463102  MISS:         24
+L1I RFO       ACCESS:          0  HIT:          0  MISS:          0
+L1I PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+L1I WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+L2C TOTAL     ACCESS:      29798  HIT:      17900  MISS:      11898
+L2C LOAD      ACCESS:      12486  HIT:       4208  MISS:       8278
+L2C RFO       ACCESS:        612  HIT:        228  MISS:        384
+L2C PREFETCH  ACCESS:      16042  HIT:      12816  MISS:       3226
+L2C WRITEBACK ACCESS:        658  HIT:        648  MISS:         10
+CPU 6 L1D next line prefetcher final stats
+CPU 6 L2C next line prefetcher final stats
+LLC TOTAL     ACCESS:      20428  HIT:       8011  MISS:      12417
+LLC LOAD      ACCESS:       8275  HIT:        901  MISS:       7374
+LLC RFO       ACCESS:        384  HIT:          0  MISS:        384
+LLC PREFETCH  ACCESS:      11575  HIT:       6923  MISS:       4652
+LLC WRITEBACK ACCESS:        194  HIT:        187  MISS:          7
+
+CPU 7 cumulative IPC: 0.775297 instructions: 20663944 cycles: 26652949
+L1D TOTAL     ACCESS:    6077033  HIT:    5933110  MISS:     143923
+L1D LOAD      ACCESS:    2296684  HIT:    2272805  MISS:      23879
+L1D RFO       ACCESS:    1733118  HIT:    1650677  MISS:      82441
+L1D PREFETCH  ACCESS:    2047231  HIT:    2009628  MISS:      37603
+L1D WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+L1I TOTAL     ACCESS:    6190587  HIT:    6179195  MISS:      11392
+L1I LOAD      ACCESS:    6190587  HIT:    6179195  MISS:      11392
+L1I RFO       ACCESS:          0  HIT:          0  MISS:          0
+L1I PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+L1I WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+L2C TOTAL     ACCESS:     292985  HIT:     205958  MISS:      87027
+L2C LOAD      ACCESS:      34700  HIT:      28600  MISS:       6100
+L2C RFO       ACCESS:      82426  HIT:      12348  MISS:      70078
+L2C PREFETCH  ACCESS:      87365  HIT:      76552  MISS:      10813
+L2C WRITEBACK ACCESS:      88494  HIT:      88458  MISS:         36
+CPU 7 L1D next line prefetcher final stats
+CPU 7 L2C next line prefetcher final stats
+LLC TOTAL     ACCESS:     171202  HIT:      99904  MISS:      71298
+LLC LOAD      ACCESS:       5930  HIT:       2773  MISS:       3157
+LLC RFO       ACCESS:      70074  HIT:       7835  MISS:      62239
+LLC PREFETCH  ACCESS:      19852  HIT:      14035  MISS:       5817
+LLC WRITEBACK ACCESS:      75346  HIT:      75261  MISS:         85
+LLC Next Line Prefetcher Final Stats: none
+
+Region of Interest Statistics
+
+CPU 0 cumulative IPC: 0.663492 instructions: 10000002 cycles: 15071783
+L1D TOTAL     ACCESS:    5309792  HIT:    5303358  MISS:       6434
+L1D LOAD      ACCESS:    1794468  HIT:    1792168  MISS:       2300
+L1D RFO       ACCESS:    1851220  HIT:    1851006  MISS:        214
+L1D PREFETCH  ACCESS:    1664104  HIT:    1660184  MISS:       3920
+L1D WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+L1D PREFETCH  REQUESTED:    3415507  ISSUED:    3398537  USEFUL:       3013  USELESS:       2459
+L1I TOTAL     ACCESS:    3019863  HIT:    3019412  MISS:        451
+L1I LOAD      ACCESS:    3019863  HIT:    3019412  MISS:        451
+L1I RFO       ACCESS:          0  HIT:          0  MISS:          0
+L1I PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+L1I WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+L1I PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+L2C TOTAL     ACCESS:      12482  HIT:      10674  MISS:       1808
+L2C LOAD      ACCESS:       2728  HIT:       2055  MISS:        673
+L2C RFO       ACCESS:        213  HIT:        125  MISS:         88
+L2C PREFETCH  ACCESS:       8598  HIT:       7552  MISS:       1046
+L2C WRITEBACK ACCESS:        943  HIT:        942  MISS:          1
+L2C PREFETCH  REQUESTED:       9697  ISSUED:       9489  USEFUL:        491  USELESS:        173
+LLC TOTAL     ACCESS:       2585  HIT:        528  MISS:       2057
+LLC LOAD      ACCESS:        656  HIT:         98  MISS:        558
+LLC RFO       ACCESS:         88  HIT:          0  MISS:         88
+LLC PREFETCH  ACCESS:       1832  HIT:        421  MISS:       1411
+LLC WRITEBACK ACCESS:          9  HIT:          9  MISS:          0
+LLC PREFETCH  REQUESTED:    1072865  ISSUED:    1054969  USEFUL:      13006  USELESS:      20183
+Major fault: 0 Minor fault: 397
+
+CPU 1 cumulative IPC: 0.39729 instructions: 10000000 cycles: 25170548
+L1D TOTAL     ACCESS:    5572836  HIT:    5408234  MISS:     164602
+L1D LOAD      ACCESS:    2263232  HIT:    2254126  MISS:       9106
+L1D RFO       ACCESS:    1124587  HIT:    1124587  MISS:          0
+L1D PREFETCH  ACCESS:    2185017  HIT:    2029521  MISS:     155496
+L1D WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+L1D PREFETCH  REQUESTED:    2690655  ISSUED:    2664932  USEFUL:     177844  USELESS:       4629
+L1I TOTAL     ACCESS:    2383630  HIT:    2383630  MISS:          0
+L1I LOAD      ACCESS:    2383630  HIT:    2383630  MISS:          0
+L1I RFO       ACCESS:          0  HIT:          0  MISS:          0
+L1I PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+L1I WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+L1I PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+L2C TOTAL     ACCESS:     311410  HIT:     227673  MISS:      83737
+L2C LOAD      ACCESS:       7325  HIT:       4252  MISS:       3073
+L2C RFO       ACCESS:          0  HIT:          0  MISS:          0
+L2C PREFETCH  ACCESS:     303174  HIT:     222510  MISS:      80664
+L2C WRITEBACK ACCESS:        911  HIT:        911  MISS:          0
+L2C PREFETCH  REQUESTED:     187550  ISSUED:     184765  USEFUL:        676  USELESS:      90375
+LLC TOTAL     ACCESS:     146609  HIT:      61950  MISS:      84659
+LLC LOAD      ACCESS:       3067  HIT:        179  MISS:       2888
+LLC RFO       ACCESS:          0  HIT:          0  MISS:          0
+LLC PREFETCH  ACCESS:     143209  HIT:      61438  MISS:      81771
+LLC WRITEBACK ACCESS:        333  HIT:        333  MISS:          0
+LLC PREFETCH  REQUESTED:    1072865  ISSUED:    1054969  USEFUL:      13006  USELESS:      20183
+Major fault: 0 Minor fault: 2522
+
+CPU 2 cumulative IPC: 0.916453 instructions: 10000001 cycles: 10911639
+L1D TOTAL     ACCESS:    3092326  HIT:    3092230  MISS:         96
+L1D LOAD      ACCESS:    1619688  HIT:    1619688  MISS:          0
+L1D RFO       ACCESS:     334512  HIT:     334432  MISS:         80
+L1D PREFETCH  ACCESS:    1138126  HIT:    1138110  MISS:         16
+L1D WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+L1D PREFETCH  REQUESTED:    3919663  ISSUED:    3892974  USEFUL:       8747  USELESS:        338
+L1I TOTAL     ACCESS:    2918316  HIT:    2918316  MISS:          0
+L1I LOAD      ACCESS:    2918316  HIT:    2918316  MISS:          0
+L1I RFO       ACCESS:          0  HIT:          0  MISS:          0
+L1I PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+L1I WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+L1I PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+L2C TOTAL     ACCESS:        113  HIT:         17  MISS:         96
+L2C LOAD      ACCESS:          0  HIT:          0  MISS:          0
+L2C RFO       ACCESS:         71  HIT:          0  MISS:         71
+L2C PREFETCH  ACCESS:         41  HIT:         16  MISS:         25
+L2C WRITEBACK ACCESS:          1  HIT:          1  MISS:          0
+L2C PREFETCH  REQUESTED:      15466  ISSUED:      15235  USEFUL:        307  USELESS:      13287
+LLC TOTAL     ACCESS:        116  HIT:         19  MISS:         97
+LLC LOAD      ACCESS:          0  HIT:          0  MISS:          0
+LLC RFO       ACCESS:         62  HIT:          3  MISS:         59
+LLC PREFETCH  ACCESS:         54  HIT:         16  MISS:         38
+LLC WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+LLC PREFETCH  REQUESTED:    1072865  ISSUED:    1054969  USEFUL:      13006  USELESS:      20183
+Major fault: 0 Minor fault: 855
+
+CPU 3 cumulative IPC: 0.895711 instructions: 10000000 cycles: 11164312
+L1D TOTAL     ACCESS:    6164940  HIT:    4988085  MISS:    1176855
+L1D LOAD      ACCESS:    3314188  HIT:    2597497  MISS:     716691
+L1D RFO       ACCESS:     797193  HIT:     726541  MISS:      70652
+L1D PREFETCH  ACCESS:    2053559  HIT:    1664047  MISS:     389512
+L1D WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+L1D PREFETCH  REQUESTED:    8315134  ISSUED:    5718622  USEFUL:      75972  USELESS:     917463
+L1I TOTAL     ACCESS:    2768024  HIT:    2507918  MISS:     260106
+L1I LOAD      ACCESS:    2768024  HIT:    2507918  MISS:     260106
+L1I RFO       ACCESS:          0  HIT:          0  MISS:          0
+L1I PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+L1I WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+L1I PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+L2C TOTAL     ACCESS:    2295256  HIT:    2177811  MISS:     117445
+L2C LOAD      ACCESS:     972091  HIT:     950844  MISS:      21247
+L2C RFO       ACCESS:      70560  HIT:      59536  MISS:      11024
+L2C PREFETCH  ACCESS:    1168050  HIT:    1082990  MISS:      85060
+L2C WRITEBACK ACCESS:      84555  HIT:      84441  MISS:        114
+L2C PREFETCH  REQUESTED:    2980612  ISSUED:    2626977  USEFUL:     180586  USELESS:      36727
+LLC TOTAL     ACCESS:     225009  HIT:     198524  MISS:      26485
+LLC LOAD      ACCESS:      20290  HIT:      19848  MISS:        442
+LLC RFO       ACCESS:      10446  HIT:       4511  MISS:       5935
+LLC PREFETCH  ACCESS:     182927  HIT:     162826  MISS:      20101
+LLC WRITEBACK ACCESS:      11346  HIT:      11339  MISS:          7
+LLC PREFETCH  REQUESTED:    1072865  ISSUED:    1054969  USEFUL:      13006  USELESS:      20183
+Major fault: 0 Minor fault: 1278
+
+CPU 4 cumulative IPC: 0.55591 instructions: 10000000 cycles: 17988537
+L1D TOTAL     ACCESS:    3261667  HIT:    3261081  MISS:        586
+L1D LOAD      ACCESS:    1454977  HIT:    1454850  MISS:        127
+L1D RFO       ACCESS:     389148  HIT:     388918  MISS:        230
+L1D PREFETCH  ACCESS:    1417542  HIT:    1417313  MISS:        229
+L1D WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+L1D PREFETCH  REQUESTED:    2350656  ISSUED:    2349393  USEFUL:        204  USELESS:         29
+L1I TOTAL     ACCESS:    3254333  HIT:    3254058  MISS:        275
+L1I LOAD      ACCESS:    3254333  HIT:    3254058  MISS:        275
+L1I RFO       ACCESS:          0  HIT:          0  MISS:          0
+L1I PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+L1I WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+L1I PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+L2C TOTAL     ACCESS:       1311  HIT:        463  MISS:        848
+L2C LOAD      ACCESS:        370  HIT:        108  MISS:        262
+L2C RFO       ACCESS:        230  HIT:         20  MISS:        210
+L2C PREFETCH  ACCESS:        612  HIT:        236  MISS:        376
+L2C WRITEBACK ACCESS:         99  HIT:         99  MISS:          0
+L2C PREFETCH  REQUESTED:        886  ISSUED:        872  USEFUL:        215  USELESS:          0
+LLC TOTAL     ACCESS:       1128  HIT:        233  MISS:        895
+LLC LOAD      ACCESS:        231  HIT:         32  MISS:        199
+LLC RFO       ACCESS:        210  HIT:         13  MISS:        197
+LLC PREFETCH  ACCESS:        687  HIT:        188  MISS:        499
+LLC WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+LLC PREFETCH  REQUESTED:    1072865  ISSUED:    1054969  USEFUL:      13006  USELESS:      20183
+Major fault: 0 Minor fault: 103
+
+CPU 5 cumulative IPC: 0.375193 instructions: 10000001 cycles: 26652948
+L1D TOTAL     ACCESS:    4060373  HIT:    3350586  MISS:     709787
+L1D LOAD      ACCESS:    1803816  HIT:    1425708  MISS:     378108
+L1D RFO       ACCESS:     716545  HIT:     701809  MISS:      14736
+L1D PREFETCH  ACCESS:    1540012  HIT:    1223069  MISS:     316943
+L1D WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+L1D PREFETCH  REQUESTED:    2104811  ISSUED:    2054555  USEFUL:     121227  USELESS:     233411
+L1I TOTAL     ACCESS:    3589535  HIT:    3562416  MISS:      27119
+L1I LOAD      ACCESS:    3589535  HIT:    3562416  MISS:      27119
+L1I RFO       ACCESS:          0  HIT:          0  MISS:          0
+L1I PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+L1I WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+L1I PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+L2C TOTAL     ACCESS:    1156805  HIT:     533440  MISS:     623365
+L2C LOAD      ACCESS:     379556  HIT:     119641  MISS:     259915
+L2C RFO       ACCESS:      14658  HIT:       3410  MISS:      11248
+L2C PREFETCH  ACCESS:     734184  HIT:     382058  MISS:     352126
+L2C WRITEBACK ACCESS:      28407  HIT:      28331  MISS:         76
+L2C PREFETCH  REQUESTED:     778089  ISSUED:     766628  USEFUL:      22111  USELESS:     366354
+LLC TOTAL     ACCESS:     947971  HIT:     929089  MISS:      18882
+LLC LOAD      ACCESS:     258277  HIT:     255987  MISS:       2290
+LLC RFO       ACCESS:      11246  HIT:       2171  MISS:       9075
+LLC PREFETCH  ACCESS:     658239  HIT:     650730  MISS:       7509
+LLC WRITEBACK ACCESS:      20209  HIT:      20201  MISS:          8
+LLC PREFETCH  REQUESTED:    1072865  ISSUED:    1054969  USEFUL:      13006  USELESS:      20183
+Major fault: 0 Minor fault: 2374
+
+CPU 6 cumulative IPC: 1.09143 instructions: 10000002 cycles: 9162256
+L1D TOTAL     ACCESS:    2290829  HIT:    2284702  MISS:       6127
+L1D LOAD      ACCESS:     899100  HIT:     894287  MISS:       4813
+L1D RFO       ACCESS:     680127  HIT:     679975  MISS:        152
+L1D PREFETCH  ACCESS:     711602  HIT:     710440  MISS:       1162
+L1D WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+L1D PREFETCH  REQUESTED:    2852785  ISSUED:    2792392  USEFUL:        302  USELESS:       3006
+L1I TOTAL     ACCESS:    2602114  HIT:    2602112  MISS:          2
+L1I LOAD      ACCESS:    2602114  HIT:    2602112  MISS:          2
+L1I RFO       ACCESS:          0  HIT:          0  MISS:          0
+L1I PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+L1I WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+L1I PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+L2C TOTAL     ACCESS:      11079  HIT:       6593  MISS:       4486
+L2C LOAD      ACCESS:       4792  HIT:       1717  MISS:       3075
+L2C RFO       ACCESS:        152  HIT:         65  MISS:         87
+L2C PREFETCH  ACCESS:       5974  HIT:       4651  MISS:       1323
+L2C WRITEBACK ACCESS:        161  HIT:        160  MISS:          1
+L2C PREFETCH  REQUESTED:      16574  ISSUED:      16336  USEFUL:       1813  USELESS:       1507
+LLC TOTAL     ACCESS:       7626  HIT:       2913  MISS:       4713
+LLC LOAD      ACCESS:       3075  HIT:        335  MISS:       2740
+LLC RFO       ACCESS:         87  HIT:          0  MISS:         87
+LLC PREFETCH  ACCESS:       4429  HIT:       2543  MISS:       1886
+LLC WRITEBACK ACCESS:         35  HIT:         35  MISS:          0
+LLC PREFETCH  REQUESTED:    1072865  ISSUED:    1054969  USEFUL:      13006  USELESS:      20183
+Major fault: 0 Minor fault: 330
+
+CPU 7 cumulative IPC: 0.706 instructions: 10000000 cycles: 14164315
+L1D TOTAL     ACCESS:    2903888  HIT:    2800392  MISS:     103496
+L1D LOAD      ACCESS:    1165999  HIT:    1158254  MISS:       7745
+L1D RFO       ACCESS:     711393  HIT:     636235  MISS:      75158
+L1D PREFETCH  ACCESS:    1026496  HIT:    1005903  MISS:      20593
+L1D WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+L1D PREFETCH  REQUESTED:    2302139  ISSUED:    2233513  USEFUL:      20411  USELESS:      17063
+L1I TOTAL     ACCESS:    2814162  HIT:    2811283  MISS:       2879
+L1I LOAD      ACCESS:    2814162  HIT:    2811283  MISS:       2879
+L1I RFO       ACCESS:          0  HIT:          0  MISS:          0
+L1I PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+L1I WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+L1I PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+L2C TOTAL     ACCESS:     207115  HIT:     128997  MISS:      78118
+L2C LOAD      ACCESS:      10240  HIT:       6877  MISS:       3363
+L2C RFO       ACCESS:      75147  HIT:       6708  MISS:      68439
+L2C PREFETCH  ACCESS:      44007  HIT:      37715  MISS:       6292
+L2C WRITEBACK ACCESS:      77721  HIT:      77697  MISS:         24
+L2C PREFETCH  REQUESTED:      69262  ISSUED:      68046  USEFUL:       1764  USELESS:       7559
+LLC TOTAL     ACCESS:     155621  HIT:      88396  MISS:      67225
+LLC LOAD      ACCESS:       3235  HIT:       1205  MISS:       2030
+LLC RFO       ACCESS:      68436  HIT:       6781  MISS:      61655
+LLC PREFETCH  ACCESS:      11605  HIT:       8082  MISS:       3523
+LLC WRITEBACK ACCESS:      72345  HIT:      72328  MISS:         17
+LLC PREFETCH  REQUESTED:    1072865  ISSUED:    1054969  USEFUL:      13006  USELESS:      20183
+Major fault: 0 Minor fault: 2341
+CPU 0 L1D next line prefetcher final stats
+CPU 0 L2C next line prefetcher final stats
+CPU 1 L1D next line prefetcher final stats
+CPU 1 L2C next line prefetcher final stats
+CPU 2 L1D next line prefetcher final stats
+CPU 2 L2C next line prefetcher final stats
+CPU 3 L1D next line prefetcher final stats
+CPU 3 L2C next line prefetcher final stats
+CPU 4 L1D next line prefetcher final stats
+CPU 4 L2C next line prefetcher final stats
+CPU 5 L1D next line prefetcher final stats
+CPU 5 L2C next line prefetcher final stats
+CPU 6 L1D next line prefetcher final stats
+CPU 6 L2C next line prefetcher final stats
+CPU 7 L1D next line prefetcher final stats
+CPU 7 L2C next line prefetcher final stats
+LLC Next Line Prefetcher Final Stats: none
+
+DRAM Statistics
+ CHANNEL 0
+ RQ ROW_BUFFER_HIT:     179824  ROW_BUFFER_MISS:     130578
+ DBUS_CONGESTED:     324292
+ WQ ROW_BUFFER_HIT:      20430  ROW_BUFFER_MISS:     108637  FULL:          0
+
+ CHANNEL 1
+ RQ ROW_BUFFER_HIT:          0  ROW_BUFFER_MISS:          0
+ DBUS_CONGESTED:     324292
+ WQ ROW_BUFFER_HIT:          0  ROW_BUFFER_MISS:          0  FULL:          0
+
+ AVG_CONGESTED_CYCLE: 21

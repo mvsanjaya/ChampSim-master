@@ -62,6 +62,23 @@ void print_roi_stats(uint32_t cpu, CACHE *cache)
     cout << cache->NAME;
     cout << " PREFETCH  REQUESTED: " << setw(10) << cache->pf_requested << "  ISSUED: " << setw(10) << cache->pf_issued;
     cout << "  USEFUL: " << setw(10) << cache->pf_useful << "  USELESS: " << setw(10) << cache->pf_useless << endl;
+
+            std::ofstream outfile2;
+            outfile2.open("All_hitrate_data.txt", std::ios_base::app);
+            outfile2 << cache->NAME;
+            outfile2 << " TOTAL     ACCESS: " << setw(10) << TOTAL_ACCESS << "  HIT: " << setw(10) << TOTAL_HIT << "  MISS: " << setw(10) << TOTAL_MISS << endl;
+            outfile2 << "\n";                 
+            outfile2.close();
+
+            std::ofstream outfile3;
+            outfile3.open("hitrate_data.txt", std::ios_base::app);
+            //outfile3 << cache->NAME;
+            outfile3 << TOTAL_ACCESS<< endl;
+            outfile3 <<  TOTAL_HIT << endl;
+            //outfile3 << "\n";                 
+            outfile3.close();            
+
+
 }
 
 void print_sim_stats(uint32_t cpu, CACHE *cache)
